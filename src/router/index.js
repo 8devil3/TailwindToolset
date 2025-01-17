@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Index from '../views/Index.vue';
 import Flex from '../views/Flex.vue';
 import Grid from '../views/Grid.vue';
-import OrangeVue from '../views/OrangeVue.vue';
 import About from '../views/About.vue';
 
 const router = createRouter({
