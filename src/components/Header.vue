@@ -164,11 +164,6 @@ const links = [
         to: '/grid',
     },
     {
-        name: 'orangevue',
-        text: 'UI kit',
-        to: '/orangevue',
-    },
-    {
         name: 'about',
         text: 'About',
         to: '/about',
