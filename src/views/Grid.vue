@@ -56,14 +56,14 @@
         <!-- / -->
     
         <!-- playground -->
-        <div class="flex flex-col w-full gap-4 p-4">
+        <div class="flex flex-col w-full gap-4 p-4 overflow-hidden">
             <div v-if="data.gridItems.length" id="playground" class="grid w-full h-full p-2 overflow-auto" :class="data.classes.map(c => c.value).join(' ')">
                 <div v-for="item in data.gridItems" class="bg-orange-500/30 border-2 border-orange-500 flex items-center justify-center min-w-[64px] min-h-[64px] p-4 shrink-0 rounded-md">
                     {{ item }}
                 </div>
             </div>
         
-            <div v-else class="flex flex-col items-center justify-center w-full h-full overflow-auto">
+            <div v-else class="flex flex-col items-center justify-center w-full h-full">
                 <p class="mb-6 text-xl font-bold text-zinc-500">No grid items :(</p>
         
                 <button @click.native="addItem()" class="px-3 py-1.5 text-sm bg-orange-500 rounded-md">
