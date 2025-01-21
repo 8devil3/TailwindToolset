@@ -136,10 +136,10 @@ const addClass = (name, value, family)=>{
 }
 
 const reset = ()=>{
-    data.gridItems = [1,2,3,4];
+    data.flexItems = [1,2,3,4];
     
     data.classes = [
-    {name: 'None (Flex row)', value: '', family: 'direction'},
+        {name: 'None (Flex row)', value: '', family: 'direction'},
         {name: 'Items center', value: 'items-center', family: 'align'},
         {name: 'Justify center', value: 'justify-center', family: 'justify'},
         {name: 'None (No wrap)', value: '', family: 'wrap'},
