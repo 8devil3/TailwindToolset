@@ -1,7 +1,7 @@
 <template>
     <div class="flex h-[calc(100vh-64px)] overflow-hidden grow relative">
         <!-- left column -->
-        <div class="absolute z-10 h-full p-4 space-y-8 overflow-y-auto bg-gray-100 border-r border-orange-500 shadow-lg dark:border-orange-500 lg:static w-72 shrink-0 whitespace-nowrap dark:bg-gray-800 lg:block" :class="isOpenAsideMenu ? 'block' : 'hidden'">
+        <div class="absolute z-10 h-full p-4 space-y-8 overflow-y-auto bg-gray-100 border-r border-orange-500 shadow-lg shrink-0 dark:border-orange-500 lg:static w-72 whitespace-nowrap dark:bg-gray-800 lg:block" :class="isOpenAsideMenu ? 'block' : 'hidden'">
             <div class="flex items-center justify-between gap-4">
                 <h2 class="mb-0">Properties</h2>
                 <button @click.native="reset()" title="Reset all properties" class="px-3 py-1.5 text-sm border border-red-500 rounded-md bg-red-500/20 hover:bg-red-500/30 transition-colors">
